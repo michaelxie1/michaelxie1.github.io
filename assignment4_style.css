@@ -1,0 +1,100 @@
+/*animation 10 seconds 3-4 oclock;*/
+/*text/miscellaneous*/
+h1 {
+  text-align: center;
+  color: white;
+}
+h3{
+  text-align: center;
+  color: white;
+}
+body{
+  background-image: linear-gradient(to right, black, purple);
+}
+
+/*Clock properties*/
+.clock{
+  height: 500px;
+  width: 500px;
+  max-height:500px;
+  max-width: 500px;
+
+  background-image: url("images/clockimage.png");
+  background-size: 100%;
+  background-color: cyan;
+
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;}
+
+.clock img{
+  position: relative;
+  width: 100%;
+  height: 100%;}
+
+
+/*minute-hand*/
+.hand1{
+  width: 20%;
+  margin-left: 20px;}
+
+.hand1 img{
+  width: 16%;
+  height: 5%;
+  margin-top: 15%;
+  margin-left:15%;
+
+  transform:rotate(270deg);
+  transform-origin: left;
+
+  position: absolute;
+  animation-name: minute_hand;
+  animation-duration: 10s;
+  animation-fill-mode: forwards;}
+
+@keyframes minute_hand {
+  0%{}
+  100%{transform: rotate(630deg);}
+}
+
+
+/*hour-hand*/
+.hand2{
+  width: 20%;
+  margin-left: 20px;
+
+  animation-fill-mode: forwards;}
+
+.hand2 img{
+  width: 10%;
+  height: 10%;
+  margin-top: 13.85%;
+  margin-left: 15%;
+
+
+  transform-origin: left;
+
+  position: absolute;
+  animation-name: hour_hand;
+  animation-duration: 10s;
+  animation-fill-mode: forwards;}
+
+
+@keyframes hour_hand {
+  0%{}
+  100%{transform: rotate(30deg);}
+}
+/*
+all this code goes in the hand img{} section
+hand1:
+width: 19%;
+height: 5%;
+margin-left: 19.4%;
+margin-top: 19.5%;
+
+
+hand2:
+width: 12%;
+height: 10%;
+margin-left: 19.5%;
+margin-top: 18%;*/
