@@ -1,0 +1,240 @@
+/*Modal Window #1*/
+/*Display for button/image*/
+.website{
+
+}
+.window_1{
+  position: static;
+  height: 60%;
+  width: 30%;
+  border: 3px solid red;
+  text-align: center;
+  padding: 2%;
+  float: left;
+  margin-left: 10%;
+  margin-top: 10%;
+}
+.snack1{
+  height: 50%;
+  width: 40%;
+}
+.description1{
+
+}
+/*button aesthetic*/
+.click1{
+  background: orange;
+  color: white;
+  padding: 4px;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+/*Modal window itself*/
+.modal_window_1{
+  position: fixed;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  background-color: rgba(30, 86, 124, 0.5);
+  opacity: 0;
+  pointer-events: none;
+  text-align: center;
+}
+.modal_window_1:target{
+  opacity: 1;
+  pointer-events: all;
+}
+/*Modal Window Content*/
+.msgblock1{
+  position: relative;
+  width: 65%;
+  height: 75%;
+  border-radius: 10px;
+  margin: auto;
+  margin-top: 5%;
+  background-color: orange;
+}
+.msgblock1 h1{
+  height: 10%;
+  background-color: pink;
+  text-align: left;
+  color: white;
+  padding: 1%;
+}
+.msgblock1 p{
+  height: 8%;
+  width: 80%;
+  margin-left: 10%;
+  background-color: pink;
+  text-align: left;
+  padding: 1%;
+}
+.msgblock1 img{
+  height: 45%;
+  width: 45%;
+  text-align: center;
+  margin-top: 5%;
+  margin-right: 15%
+}
+
+
+
+/*Modal Window #2*/
+.window_2{
+  position: static;
+  height: 60%;
+  width: 30%;
+  border: 3px solid red;
+  text-align: center;
+  padding: 2%;
+  float: right;
+  margin-right: 10%;
+  margin-top: 10%;
+}
+.snack2{
+  height: 50%;
+  width: 40%;
+}
+.description2{
+
+}
+/*button aesthetic*/
+.click2{
+  background: orange;
+  color: white;
+  padding: 4px;
+  border-radius: 8px;
+  text-decoration: none;
+}
+/*Modal window itself*/
+h1 .close2{
+  float: right;
+  margin-right: -1.15%;
+  margin-top: -1.15%;
+}
+
+
+.modal_window_2{
+  position: fixed;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  background-color: rgba(0, 100, 0, 0.5);
+  opacity: 0;
+  pointer-events: none;
+  text-align: center;
+}
+.modal_window_2:target{
+  opacity: 1;
+  pointer-events: all;}
+.close2{
+  color: #aaa;
+  float: right;
+  font-weight: bold;
+}
+.close2:hover,
+.close2:focus{
+  color: black;
+  cursor: pointer;
+  text-decoration: none;
+}
+/*button:target{
+  opacity: 1;
+  pointer-events: auto;}
+
+/*.modal_window_2:target{
+  opacity: 1;
+  pointer-events: auto;
+}*/
+/*Modal Window Content*/
+.msgblock2{
+  position: relative;
+  width: 65%;
+  height: 75%;
+  border-radius: 10px;
+  margin: auto;
+  margin-top: 5%;
+  background-color: skyblue;
+}
+.msgblock2 h1{
+  height: 10%;
+  background-color: pink;
+  text-align: left;
+  color: white;
+  padding: 1%;
+}
+.msgblock2 p{
+  height: 8%;
+  width: 80%;
+  margin-left: 10%;
+  background-color: pink;
+  text-align: left;
+  padding: 1%;
+}
+.msgblock2 img{
+  height: 45%;
+  width: 45%;
+  text-align: center;
+  margin-top: 5%;
+  margin-right: 15%
+}
+
+a{
+  padding: 1%;
+  background-color: purple;
+  color: lightblue;
+}
+
+
+
+/*
+.window_2{
+  height: 1000px;
+  width: 400px;
+  border: 2px solid red;
+  text-align: center;
+  padding: 2%;
+}
+.snack2{
+  height: 50%;
+  width: 40%;
+}
+.description2{
+
+}
+.click2{
+  background: orange;
+  color: white;
+  padding: 4px;
+  border-radius: 8px;
+  text-decoration: none;
+}
+/*Modual Window*/
+/*
+.modal_window_2{
+  position: fixed;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  background-color: rgba(30, 86, 124, 0.5);
+  opacity: 0;
+  pointer-events: none;
+  text-align: center;
+}
+.modal_window_2:target{
+  opacity: 1;
+  pointer-events: all;
+}
+.msgblock2{
+  position: relative;
+  width: 65%;
+  height: 75%;
+  border-radius: 10px;
+  margin: auto;
+  margin-top: 10%;
+  background-color: orange;
+}*/
