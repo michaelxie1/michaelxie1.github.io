@@ -1,0 +1,218 @@
+.website{
+background-color: lightyellow;
+}
+/*.animation_head{
+
+}*/
+.row{
+
+}
+.sub{
+  position: static;
+  height: 60%;
+  width: 20%;
+  border: 3px solid red;
+  text-align: center;
+  padding: 0%;
+  float: left;
+  margin-left: 10%;
+  margin-top: 10%;
+}
+
+
+.close{
+  float: right;
+}
+
+.click:hover{
+  background: black;
+  color: white;
+  padding: 1%;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+.row img{
+  height: 100%;
+  width: 100%;
+}
+.modal5{
+  position: fixed;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  background-color: rgba(30, 30, 30, 0.5);
+  opacity: 0;
+  pointer-events: none;
+  float: right;
+}
+.modal5:target{
+  opacity: 1;
+  pointer-events: all;
+}
+.pic5{
+/*  border: 2px solid lightgreen; */
+  height: 35%;
+  width: 35%;
+  margin-left: 18.5%;
+  float: left;
+}
+.item5description{
+  float: left;
+  width: 100%;
+  margin-top: 3%;
+  background-color: lightgray;
+/*  border: 3px solid yellow; */
+}
+.item5description p{
+  float:center;
+  margin-right: 10%;
+}
+.item5description a:hover{
+  background: white;
+  color: black;
+  padding: 1%;
+  margin: 1%;
+}
+.item5description a:hover{
+  opacity: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*body{
+  background-color: lightyellow;
+}
+.click:hover{
+  background: black;
+  color: white;
+  padding: 1%;
+  border-radius: 8px;
+  text-decoration: none;
+}
+.row img{
+  height: 100%;
+  width: 100%;
+}
+
+.sub{
+  position: static;
+  height: 60%;
+  width: 20%;
+  border: 3px solid red;
+  text-align: center;
+  padding: 0%;
+  float: left;
+  margin-left: 10%;
+  margin-top: 10%;
+}
+.modal1{
+  position: fixed;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  background-color: rgba(30, 30, 30, 0.5);
+  opacity: 0;
+  pointer-events: none;
+  float: right;
+}
+.modal1:target{
+  opacity: 1;
+  pointer-events: auto;
+}
+.head1{
+  float: center;
+  width: 80%;
+}
+.modal1{
+  border: 3px solid purple;
+}
+
+.pic1{
+  border: 3px solid cyan;
+  width: 45%;
+  height: 45%;
+  margin-left: 5%;
+}
+
+.msgblock1{
+  float:right;
+  border: 3px solid green;
+  position: relative;
+  width: 50%;
+  height: 80%;
+  border-radius: 10px;
+  margin: auto;
+  margin-top: 0;
+  background-color: white;
+}
+.close{
+  border: 3px solid lightgray;
+}
+
+.checkout{
+  border: 3px solid red;
+  float: center;
+  height: 90%;
+  width: 50%;
+  margin-left: 25%;
+  background-color: white;
+
+}
+.close{
+  float: right;
+  background-color: lightgray;
+}
+.checkout_words{
+  border: 3px solid blue;
+  float: right;
+  margin: 10%;
+  margin-left: 10%;
+  margin-top: 7.5%;
+  width: 25%;
+
+}
+.item1description{
+  background-color: lightgray;
+  border: 2px solid yellow;
+  margin-bottom: 2%;
+}
+
+
+
+.modal2{
+  position: fixed;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  background-color: rgba(30, 86, 124, 0.5);
+  opacity: 0;
+  pointer-events: none;
+  text-align: center;
+}
+.modal2:target{
+  opacity: 1;
+  pointer-events: auto;
+}*/

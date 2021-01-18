@@ -1,0 +1,188 @@
+body{
+  background-color: lightyellow;
+}
+.website{
+background-color: lightyellow;
+}
+/*.animation_head{
+
+}*/
+.row{
+
+}
+.sub{
+  position: static;
+  height: 60%;
+  width: 20%;
+  border: 3px solid red;
+  text-align: center;
+  padding: 0%;
+  float: left;
+  margin-left: 10%;
+  margin-top: 10%;
+}
+
+
+.close{
+  float: right;
+}
+
+.click:hover{
+  background: black;
+  color: white;
+  padding: 1%;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+.row img{
+  height: 100%;
+  width: 100%;
+}
+
+/*Modal Window 1: Hand Lotion*/
+.modal1{
+  position: fixed;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  background-color: rgba(30, 30, 30, 0.5);
+  opacity: 0;
+  pointer-events: none;
+  float: right;
+}
+.modal1:target{
+  opacity: 1;
+  pointer-events: auto;
+}
+.modal1 img{
+  height:40%;
+  width: 30%;
+  float:left;
+  margin-right: 5%;
+  margin-bottom: 10%;
+
+}
+.modal1 h2{
+  float:right;
+}
+.modal1 h1{
+  float: right;
+}
+.modal1 p{
+  float: right;
+}
+.bottom_block{
+  background-color: lightgray;
+  height: 10%;
+  margin-top: 30%;
+  text-align: center;
+}
+
+.top_block{
+  float: right;
+  text-align: center;
+}
+
+
+
+
+/*Modal Window 2: Body Lotion*/
+.modal2{
+  position: fixed;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  background-color: rgba(30, 86, 124, 0.5);
+  opacity: 0;
+  pointer-events: none;
+  text-align: center;
+}
+.modal2:target{
+  opacity: 1;
+  pointer-events: auto;
+}
+.modal2 img{
+  height:80%;
+  float:left;
+}
+.modal2 h2{
+  float:right;
+}
+.modal2 h1{
+  float: right;
+}
+.modal2 p{
+  float: right;
+}
+
+
+/*Modal Window 3: Body Cream*/
+.modal3{
+  position: fixed;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  background-color: rgba(30, 86, 124, 0.5);
+  opacity: 0;
+  pointer-events: none;
+  text-align: center;
+}
+.modal3:target{
+  opacity: 1;
+  pointer-events: auto;
+}
+.modal3 img{
+  height:80%;
+  float:left;
+  margin-right: 10%;
+  margin-bottom: 10%;
+}
+.modal3 h2{
+  float:right;
+}
+.modal3 h1{
+  float: right;
+}
+.modal3 p{
+  float: right;
+}
+.msgblock{
+
+  position: relative;
+  width: 50%;
+  height: 80%;
+  border-radius: 10px;
+  margin: auto;
+  margin-top: 5%;
+  background-color: white;
+}
+/*.msgblock h5{
+  float: left;
+}
+
+all of them
+.msgblock h1{
+  height: 10%;
+  background-color: pink;
+  text-align: left;
+  color: white;
+  padding: 1%;
+}
+.msgblock p{
+  width: 80%;
+  margin-left: 10%;
+  background-color: pink;
+  text-align: left;
+  padding: 1%;
+}
+.msgblock img{
+  height: 45%;
+  width: 45%;
+  text-align: center;
+  margin-top: 5%;
+  margin-right: 15%
+}*/
