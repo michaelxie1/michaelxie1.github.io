@@ -23,10 +23,12 @@ body{
 
 .top i{
   animation: animate_2 1s infinite;
-  border: 3px solid red;
+
 }
 .top h3{
+
   animation: text_animate 1s infinite;
+
 }
 
 @keyframes image_animate {
@@ -50,29 +52,7 @@ body{
   75%{margin-top: -10%;}
   100%{margin-bottom: -10%;}
 }
-/*Slide show
-.frame {
-  width:100%;
-  height: 580px;
-  border: 2px solid red;
-}
-.slidegroup{
-width: 400%;
-height: 100%;
-animation: slide 6s;
-animation-fill-mode: forwards;
-}
 
-@keyframes slide {
-0%  { margin-right: 0%; }
-
-30% { margin-left: -100%; }
-
-70% {  margin-left: -200%;}
-
-100% {  margin-left: -300%; }
-
-}*/
 
 .intro_slide{
   border: 4px solid red;
@@ -106,29 +86,16 @@ animation-fill-mode: forwards;
   float:right;
   padding: 2.5%;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 /*Second part*/
 
 .intro_2{}
-  .intro_img2{
 
+.intro_img2{
   }
 .flowers2{
   position: relative;
   width: 40%;
   height: 60%;
-
   opacity: 50%;
   float:left;
   margin-left: 5%;
@@ -360,10 +327,7 @@ h5{
 }
 
 
-
-
-
-/*Row #2 (gift sets)*/
+/*Row 2 Giftsets*/
 .row2{
   margin-left: 20%
 }
@@ -374,16 +338,20 @@ h5{
 .sub2{/*change this*/
   position: static;
   height: 70%;
-  width: 25%;
+  width: 20%;
   /*border: 3px solid red;*/
   text-align: center;
   padding: 0%;
   float: left;
-  margin-left: 2%;
+  margin-left: 5%;
   margin-top: 10%;
   margin-bottom: 7.5%;
 }
-/*Modal #4*/
+
+
+
+
+
 .modal4{
   position: fixed;
   top: 0px;
@@ -400,7 +368,7 @@ h5{
   pointer-events: auto;
 }
 .pic4{
-  /*border: 2px solid lightgreen; */
+/*  border: 2px solid lightgreen; */
   height: 35%;
   width: 35%;
   margin-left: 18.5%;
@@ -409,9 +377,9 @@ h5{
 .item4description{
   float: left;
   width: 100%;
-  margin-top: 17.3%;
+  margin-top: 3%;
   background-color: lightgray;
-  /*border: 3px solid yellow; */
+  /*border: 3px solid yellow;*/
 }
 .item4description p{
   float:center;
@@ -428,49 +396,6 @@ h5{
 }
 
 
-/*Modal #5
-.modal5{
-  position: fixed;
-  top: 0px;
-  bottom: 0px;
-  left: 0px;
-  right: 0px;
-  background-color: rgba(30, 30, 30, 0.5);
-  opacity: 0%;
-  pointer-events: none;
-  float: right;
-}
-.modal5:target{
-  opacity: 1;
-  pointer-events: all;
-}
-.pic5{
- border: 2px solid lightgreen;
-  height: 35%;
-  width: 35%;
-  margin-left: 18.5%;
-  float: left;
-}
-.item5description{
-  float: left;
-  width: 100%;
-  margin-top: 3%;
-  background-color: lightgray;
-/*  border: 3px solid yellow;
-}
-.item5description p{
-  float:center;
-  margin-right: 10%;
-}
-.item5description a:hover{
-  background: white;
-  color: black;
-  padding: 1%;
-  margin: 1%;
-}
-.item5description a:hover{
-  opacity: 50%;
-}*/
 .modal5{
   position: fixed;
   top: 0px;
@@ -487,7 +412,7 @@ h5{
   pointer-events: auto;
 }
 .pic5{
-  /*border: 2px solid lightgreen; */
+/*  border: 2px solid lightgreen; */
   height: 35%;
   width: 35%;
   margin-left: 18.5%;
@@ -496,9 +421,9 @@ h5{
 .item5description{
   float: left;
   width: 100%;
-  margin-top: 17.3%;
+  margin-top: 3%;
   background-color: lightgray;
-  /*border: 3px solid yellow; */
+  /*border: 3px solid yellow;*/
 }
 .item5description p{
   float:center;
@@ -515,15 +440,6 @@ h5{
 }
 
 
-
-
-
-
-
-
-
-
-/*Modal #6*/
 .modal6{
   position: fixed;
   top: 0px;
@@ -540,7 +456,7 @@ h5{
   pointer-events: auto;
 }
 .pic6{
-  /*border: 2px solid lightgreen; */
+/*  border: 2px solid lightgreen; */
   height: 35%;
   width: 35%;
   margin-left: 18.5%;
@@ -551,7 +467,7 @@ h5{
   width: 100%;
   margin-top: 3%;
   background-color: lightgray;
-/*border: 3px solid yellow; */
+  /*border: 3px solid yellow;*/
 }
 .item6description p{
   float:center;
@@ -566,6 +482,8 @@ h5{
 .item6description a:hover{
   opacity: 50%;
 }
+
+
 
 
 
@@ -585,7 +503,7 @@ h5{
   text-decoration: none;
 }
 
-
+/*Closing Section*/
 
 .company_logos{
 
@@ -667,59 +585,3 @@ h5{
   width: 100%;
   color: white;
 }
-/*Window #3
-.modal3{
-  position: fixed;
-  top: 0px;
-  bottom: 0px;
-  left: 0px;
-  right: 0px;
-  background-color: rgba(30, 30, 30, 0.5);
-  opacity: 0;
-  pointer-events: none;
-  float: right;
-}
-.modal3:target{
-  opacity: 1;
-  pointer-events: auto;
-}
-.pic3{
-  border: 2px solid lightgreen;
-  height: 35%;
-  width: 35%;
-  margin-left: 18.5%;
-  float: left;
-}
-.item3description{
-  float: left;
-  width: 99%;
-  margin-top: 3%;
-  background-color: lightgray;
-  border: 3px solid yellow;
-}
-.item3description p{
-  float:center;
-  margin-right: 10%;
-}
-.item3description a:hover{
-  background: white;
-}
-
-
-
-/*
-.checkout_head{
-  border: 2px solid cyan;
-}
-.head1{
-    border: 2px solid blue;
-}
-.pic1{
-  border: 2px solid green
-}
-.checkout_words{
-  border: 3px solid yellow;
-}
-.item1description{
-  border: 10px solid purple;
-}*/
