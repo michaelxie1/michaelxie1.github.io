@@ -50,3 +50,9 @@ body{
     text-align: center;
     font-size: 45px;
   }
+.author_credits{
+  float: right;
+  margin-right: 5%;
+  margin-top: 10%;
+  color: white;
+}
