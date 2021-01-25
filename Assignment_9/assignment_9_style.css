@@ -1,0 +1,72 @@
+html{
+  margin: 0%;
+  height: 100%;
+  background:linear-gradient(to top right, #992ed4, #e6db9d);
+}
+body{
+
+
+}
+.buttons{
+
+  width: 100%;
+  float: center;
+  margin-top: 25%;
+  text-align: center;
+
+}
+
+.button1{
+  margin-left: 5%;
+  padding: 1%;
+  font-size: 150%;
+  border-radius: 25%;
+}
+.button1:hover{
+  opacity: 50%;
+}
+.button2{
+  margin-left: 5%;
+  padding: 1%;
+  font-size: 150%;
+  border-radius: 25%;
+}
+.button2:hover{
+  opacity: 50%;
+  cursor: pointer;
+}
+.button3{
+  margin-left: 5%;
+  padding: 1%;
+  font-size: 150%;
+  border-radius: 25%;
+}
+.button3:hover{
+  opacity: 50%;
+}
+.modal{
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  display: none;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0,0,0,0.5);
+}
+.modal_content{
+  height: 40%;
+  background-color: white;
+  float:center;
+  margin-top: 10%;
+  margin-left:30%;
+  margin-right:30%;
+  text-align: center;
+
+}
+
+.close{
+  float: right;
+  margin-right: 4%;
+}
