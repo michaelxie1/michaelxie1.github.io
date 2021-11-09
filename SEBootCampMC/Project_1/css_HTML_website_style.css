@@ -1,0 +1,139 @@
+
+
+/*top of website*/
+.image1{
+  width: 10%;
+  height: 10%;
+  float: left;
+  padding-top: 1%;
+}
+
+
+.image2{
+  width: 10%;
+  height: 10%;
+  margin-left: 80%;
+  display:inline-block;
+
+}
+
+h1{
+  text-align: center;
+}
+/*pink box*/
+.imageblock{
+  border: 2px solid black;
+  background-color: pink;
+  width:100%;
+  height: 755px;
+  color: white;
+}
+
+.sub{
+  width:40%;
+  height: 40%;
+  float: left;
+  margin: 2%;}
+
+.northernLights{
+  display: inline-block;
+  border: 3px solid purple;
+  margin-right: 5%;
+  width: 80%;
+  height: 80%;
+  float: left;}
+
+.caption1{
+  display: inline-block;
+  margin-right: 10px;
+  width: 100%;}
+
+.text1{
+  margin-right: 5%;
+  width: 100%;
+  height: 100%;
+  float: left;}
+
+.waterfall{
+  display: inline-block;
+  border: 3px solid purple;
+  margin-left: 170%;
+  width: 80%;
+  height: 80%;
+  float: left;}
+
+.text2{
+  width: 100%;
+  height: 100%;
+  float: right;
+  margin-right: 100%}
+
+.figcaption2{
+  display: inline-block;
+  width: 100%;
+  margin-left:  170%;
+}
+
+
+/*Bottom Pictures*/
+.logos{
+  width: 80%;
+  height: 80%;
+  text-align: left;
+}
+.instagram{
+
+}
+
+.links{
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+/*
+.northernLights{
+  display: inline-block;
+  border: 2px solid purple;
+  margin-right: 10px;
+  width: 25%;
+  height: 35%;
+  float: left;
+}
+.text1{
+  width: 60%;
+  padding: 15px;
+}
+.waterfall{
+  display: inline-block;
+  border: 2px solid purple;
+  width: 20%;
+  height: 20%;
+  margin-left: 500px;
+
+}
+.text2{
+  display: inline-block
+}
+
+figcaption{
+  align: center;
+}
+phone{
+  max-width: 60%;
+  max-height: 60%;
+}
+.mail{
+  width: 200%;
+  height: 120%
+}
+.instagram{
+  max-width: 60%;
+  max-height: 60%
+}*/
