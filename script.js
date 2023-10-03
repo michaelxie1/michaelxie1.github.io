@@ -1,9 +1,7 @@
-/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
-function myFunction() {
-    var x = document.getElementById("myTopnav");
-    if (x.className === "topnav") {
-      x.className += " responsive";
-    } else {
-      x.className = "topnav";
-    }
-  }
+document.addEventListener("DOMContentLoaded", function () {
+  // Select the body element
+  var body = document.body;
+
+  // Set the opacity to 1 to make the content visible
+  body.style.opacity = "1";
+});
