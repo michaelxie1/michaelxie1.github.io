@@ -80,3 +80,6 @@ h1 {
     justify-content: center;
 }
 
+#slideshow-container li {
+  transition: opacity 0.25s ease-in-out; /* Adjust the duration as needed for smoother transitions */
+}
