@@ -81,5 +81,5 @@ h1 {
 }
 
 #slideshow-container li {
-  transition: opacity 0.25s ease-in-out; /* Adjust the duration as needed for smoother transitions */
+  transition: opacity 0.25s ease-in-out;
 }
