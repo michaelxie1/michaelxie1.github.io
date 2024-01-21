@@ -1,7 +1,7 @@
 /* CSS for linear gradient background */
 body {
-  background: linear-gradient(to right, #f2f2f2, #000000); /* Left to right gradient */
-  color: white; /* Change text color to white for better visibility */
+  background: linear-gradient(to right, #eef2f3, #8e9eab); /* Left to right gradient */
+  color: #404040; /* Dark grey text */
   text-align: center; /* Center-align text content */
   opacity: 0; /* CSS to hide the content initially and provide the fade-in animation */
   transition: opacity 1.5s ease-in;
@@ -82,4 +82,23 @@ h1 {
 
 #slideshow-container li {
   transition: opacity 0.25s ease-in-out;
+}
+
+/* Contact Me Section Styling */
+#contact {
+  margin: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+.linkedin-button {
+  width: 40px; /* Adjust the size as needed */
+  height: 40px;
+  margin: 10px;
+  transition: transform 0.3s ease;
+
+  /* Style for hover effect */
+  &:hover {
+      transform: scale(1.1);
+  }
 }
